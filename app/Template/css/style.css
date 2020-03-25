@@ -1,0 +1,39 @@
+
+body{
+	background: rgb(18,123,148);
+    background: linear-gradient(90deg, rgba(18,123,148,1) 1%, rgba(0,177,181,1) 100%);
+}
+
+.container.mvc{
+	max-width: 800px;
+}
+	
+	hr{
+		margin:8px 0; 
+	}
+	.container.mvc h2.post{
+		background-color: #f8f9fa!important;
+		margin-top: 8px;
+		margin-bottom: 0;
+		padding: 18px;
+	}
+	.container.mvc p.post{
+		background-color: #f8f9fa!important;
+		padding: 18px;
+		margin: 1px 0 0 0;
+		font-size: 18px;
+	}
+	.container.mvc h6.coment{
+		background-color: #00d4ff!important;
+		margin: 1px 0 0 0;
+		margin-bottom: 0;
+		padding: 10px 10px 10px 50px;
+	}
+	.container.mvc p.coment{
+		background-color: #00d4ff!important;
+		font-size: 14px;
+		padding: 10px 10px 10px 50px;
+		margin-top: 1px;
+	}
+
+
