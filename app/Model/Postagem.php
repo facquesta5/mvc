@@ -16,6 +16,10 @@
 				$resultado[] = $row;
 				 
 			}
+			if (!$resultado) {
+				throw new Exception("Não foi encontrado nenhum registro no banco de dados");
+				
+			}
 			return $resultado;
 		}
 	}
