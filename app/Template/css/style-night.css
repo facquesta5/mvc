@@ -1,0 +1,97 @@
+@charset "UTF-8";
+
+body.body-night {
+	background-color: #303030;
+	color: #f19000;
+}
+table, tr, td{
+	color: #f19000 !important;
+	border: solid 1px #202020 !important;
+}
+i{
+	color: #f0f0f0 !important;
+}
+button a{
+	color:#ffffff;
+}
+button a:hover{
+	color:#fff;
+}
+table.xdebug-error.xe-warning tbody tr th {
+	color:#ffffff !important;
+	background-color: #303030 !important;
+	border: solid 2px #202020 !important;
+	font-size: 14px;
+	font-weight: lighter;
+	padding:10px;
+}
+table.xdebug-error.xe-warning tbody tr td {
+	color:#ffffff !important;
+	background-color: #303030 !important;
+	border: #000 !important;
+	font-size: 14px;
+	font-weight: lighter;
+	padding:20px;
+}
+button.btn.btn-success{
+	margin: 10px 0 ; 
+	color:#ffffff !important; 
+	float:right;
+}
+input[type=text] , textarea{
+	    background-color: #303030 !important;
+    	color: #f19000 !important;
+    	border: #000 !important;
+}
+.table-bordered td, .table-bordered th{
+	border:1px solid #5d5d5d;
+}
+
+nav.navbar{
+background-color: #5d5d5d !important;
+
+}
+.container.mvc{
+	max-width: 800px;
+}
+.container.mvc .content{
+	background-color: #303030;
+	padding: 10px
+}
+.container.mvc .content .right{
+	float: right !important;
+}
+	
+	hr{
+		margin:8px 0; 
+	}
+	.container.mvc h2.post{
+		background-color: #454545!important;
+		margin-top: 8px;
+		margin-bottom: 0;
+		padding: 18px;
+	}
+	.container.mvc p.post{
+		background-color: #303030!important;
+		padding: 18px;
+		margin: 1px 0 0 0;
+		font-size: 18px;
+	}
+	.container.mvc h6.coment{
+		background-color: #110401!important;
+		margin: 1px 0 0 0;
+		margin-bottom: 0;
+		padding: 10px 10px 10px 50px;
+	}
+	.container.mvc p.coment{
+		background-color: #110401!important;
+		font-size: 14px;
+		padding: 10px 10px 10px 50px;
+		margin-top: 1px;
+	}
+
+
+
+.container.mvc h1, h2, h3, h4, h5, h6, a{
+	color:#262626 !important;
+}

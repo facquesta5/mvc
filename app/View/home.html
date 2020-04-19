@@ -1,5 +1,7 @@
-<h2 class="post">Primeira postagem do site</h2>
-<p class="post">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five </p>
 
-<h6 class="coment">Nome do usuário - Data e hora</h6>
-<p  class="coment">Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
+{% for postagem in postagens %}
+    
+<h2 class="post"><a href="http://localhost/youtube_rafael_capoani/mvc/?pagina=post&id={{postagem.id}}">{{postagem.titulo}}</a></h2>
+<p class="post">{{postagem.conteudo}}</p>
+
+{% endfor %}

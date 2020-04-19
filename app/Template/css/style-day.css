@@ -1,0 +1,81 @@
+@charset "UTF-8";
+
+body.body-day {
+	background: rgb(57,109,186);
+    background: linear-gradient(90deg, rgba(57,109,186,1) 0%, rgba(52,158,231,1) 100%);
+}
+
+table, tr, td{
+	border: solid 1px #000 !important;
+}
+i{
+	color: #000 !important;
+}
+button a{
+	color:#ffffff;
+}
+button a:hover{
+	color:#fff;
+}
+
+button.btn.btn-success{
+	margin: 10px 0 ; 
+	color:#ffffff !important; 
+	float:right;
+}
+
+.table-bordered td, .table-bordered th{
+	border:1px solid #5d5d5d;
+}
+
+nav.navbar{
+
+}
+.container.mvc{
+	max-width: 800px;
+}
+.admin{
+	background-color: #f8f9fa;
+	padding:10px;
+}
+.container.mvc .content{
+	background-color: #f8f9fa;
+	padding: 10px
+}
+.container.mvc .content .right{
+	float: right !important;
+}
+	
+	hr{
+		margin:8px 0; 
+	}
+	.container.mvc h2.post{
+		background-color: #f8f9fa!important;
+		margin-top: 8px;
+		margin-bottom: 0;
+		padding: 18px;
+	}
+	.container.mvc p.post{
+		background-color: #f8f9fa!important;
+		padding: 18px;
+		margin: 1px 0 0 0;
+		font-size: 18px;
+	}
+	.container.mvc h6.coment{
+		background-color: #f8f9fa!important;
+		margin: 1px 0 0 0;
+		margin-bottom: 0;
+		padding: 10px 10px 10px 50px;
+	}
+	.container.mvc p.coment{
+		background-color: #f8f9fa!important;
+		font-size: 14px;
+		padding: 10px 10px 10px 50px;
+		margin-top: 1px;
+	}
+
+
+
+.container.mvc h1, h2, h3, h4, h5, h6, a{
+	color:#262626 !important;
+}

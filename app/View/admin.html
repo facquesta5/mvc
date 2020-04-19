@@ -1,0 +1,24 @@
+<div class="admin">
+	<h2 class="post">Gerenciador de conteudo</h2>
+
+	<button type="button" class="btn right btn-success">
+		<a href="?pagina=admin&metodo=create">Criar Pulicação</a>
+	</button>
+	<table class="table table-bordered">
+		<tr>
+			<td>ID</td>
+			<td>Título</td>
+			<td>Alterar</td>
+			<td>Deletar</td>
+		</tr>
+
+			{% for postagem in postagens %}
+		<tr>
+			<td>{{postagem.id}}</td>
+			<td>{{postagem.titulo}}</td>
+			<td style="text-align: center;"><a href="?pagina=admin&metodo=change&id={{postagem.id}}"><i class="fas fa-edit"></i></a></td>
+			<td style="text-align: center;"><a href="?pagina=admin&metodo=delete&id={{postagem.id}}"><i class="fas fa-trash-alt"></i></td> 
+		</tr>
+		{% endfor %}
+	</table>
+</div>

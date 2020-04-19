@@ -1,0 +1,28 @@
+
+
+    
+<h2 class="post"><a href="http://localhost/youtube_rafael_capoani/mvc/?pagina=post&id={{postagem.id}}">{{titulo}}</a></h2>
+<p class="post">{{conteudo}}</p>
+
+<br>
+
+<form method="post" action="?pagina=post&metodo=addComent">
+	<span>Nome: </span>
+	<input class="form-control" type="text" name="nome">
+	<span>Mensagem: </span>
+	<textarea class="form-control" name="mensagem"></textarea>
+	<input type="hidden" name="id" value="{{id}}">
+		<br>
+	<input type="submit" class="btn btn-success" value="Cadastrar">
+		
+</form>
+
+{% if comentarios == false %}
+	<p  class="coment">Esta postagem ainda não tem nenhum comentário</p>
+{% else %}
+
+{% for coment in comentarios %}
+	<h6 class="coment">{{coment.nome}}</h6>
+	<p  class="coment">{{coment.mensagem}}</p>
+	{% endfor %}
+{% endif %}
